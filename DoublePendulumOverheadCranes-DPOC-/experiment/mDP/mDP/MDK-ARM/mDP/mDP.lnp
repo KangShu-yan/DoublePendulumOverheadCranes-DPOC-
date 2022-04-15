@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"mdp\startup_stm32f103xb.o"
+"mdp\main.o"
+"mdp\stm32f1xx_it.o"
+"mdp\stm32f1xx_hal_msp.o"
+"mdp\stm32f1xx_hal_gpio_ex.o"
+"mdp\stm32f1xx_hal_adc.o"
+"mdp\stm32f1xx_hal_adc_ex.o"
+"mdp\stm32f1xx_hal.o"
+"mdp\stm32f1xx_hal_rcc.o"
+"mdp\stm32f1xx_hal_rcc_ex.o"
+"mdp\stm32f1xx_hal_gpio.o"
+"mdp\stm32f1xx_hal_dma.o"
+"mdp\stm32f1xx_hal_cortex.o"
+"mdp\stm32f1xx_hal_pwr.o"
+"mdp\stm32f1xx_hal_flash.o"
+"mdp\stm32f1xx_hal_flash_ex.o"
+"mdp\stm32f1xx_hal_exti.o"
+"mdp\stm32f1xx_hal_tim.o"
+"mdp\stm32f1xx_hal_tim_ex.o"
+"mdp\stm32f1xx_hal_uart.o"
+"mdp\system_stm32f1xx.o"
+--strict --scatter "mDP\mDP.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "mDP.map" -o mDP\mDP.axf

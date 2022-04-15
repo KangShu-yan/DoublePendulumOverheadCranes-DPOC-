@@ -1,0 +1,9 @@
+mdp\bsp_uart.o: ..\Core\Src\bsp_uart.c
+mdp\bsp_uart.o: D:\installedSoftware\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h
+mdp\bsp_uart.o: ../Drivers/CMSIS/Include/core_cm3.h
+mdp\bsp_uart.o: D:\installedSoftware\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+mdp\bsp_uart.o: ../Drivers/CMSIS/Include/cmsis_version.h
+mdp\bsp_uart.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+mdp\bsp_uart.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+mdp\bsp_uart.o: D:\installedSoftware\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h
+mdp\bsp_uart.o: ../Core/Inc/bsp_uart.h
