@@ -6,8 +6,6 @@ Anti-swing and positioning control for double pendulum effects overhead cranes
 
 代码中包括设计的轨迹规划方法、非线性控制律和被比较的方法。
 
-
-
 #主要内容如下：
 
 ①  基于两点边界值分析的轨迹规划方法。针对现有双摆效应桥式吊车轨迹规划方法的不足，通过引入虚拟状态量设计基于两点边界值的非线性轨迹规划方法，该方法合理地分析系统的物理约束，将其融入到轨迹规划过程中。随后，设计了对应的跟踪控制方法并利用对比仿真验证了所提轨迹规划方法的可行性。
@@ -30,8 +28,6 @@ The major contents are as follows:
 
 用到matlab，bvp，ode等工具
 
-
-
 #experiment是论文实验代码
 
-用到keil, QtCreator等工具
+用到keil, QtCreator, Eigen等工具

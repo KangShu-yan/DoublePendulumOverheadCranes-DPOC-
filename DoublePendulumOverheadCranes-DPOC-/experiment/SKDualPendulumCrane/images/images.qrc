@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>cover.png</file>
+        <file>images.qrc</file>
+        <file>log.jpeg</file>
+        <file>pause.png</file>
+        <file>play.png</file>
+        <file>stop.png</file>
+        <file>info.png</file>
+        <file>open.png</file>
+        <file>save.png</file>
+        <file>save_as.png</file>
+        <file>back.jpg</file>
+        <file>exit.png</file>
+        <file>serial_off.png</file>
+        <file>serial_on.png</file>
+        <file>record.png</file>
+        <file>recordfill.png</file>
+        <file>snapshot.png</file>
+        <file>reset.png</file>
+    </qresource>
+</RCC>
